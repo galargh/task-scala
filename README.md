@@ -11,7 +11,9 @@ The main route is `/task/:actor`, where `:actor` is a string parameter. if `:act
 is "user" the `UserActor` should be called. A optional GET parameter called `param` can be passed to perform various actions on this actors.
 
 e.g.
+
 `GET /task/list` will return the list from ListActor as it is
+
 `GET /task/list?param=sum` will return the sum of the list from ListActor
 ...
 
